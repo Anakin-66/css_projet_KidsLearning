@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Nav bar -->
+
+    <nav>
+        <img class="logo-top" src="assets/img/Logo.png" alt="">
+        <ul>
+            <li>Accueil</li>
+            <li>Cours</li>
+            <li>Ressources</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- Header, banner avec bouton -->
+
+    <header>
+            <h1>Bienvenue sur Kids Learning</h1>
+            <a  class="bouton-banner" href="">Découvrir</a>
+    </header>
+
+    <!-- Main -->
+
+    <main>
+        <h2>Nos Cours</h2>
+        <p class="text-1">Apprenez à votre rythme avec nos cours en ligne</p>
+
+        <!-- Trois vignettes avec boutons-->
+
+        <section class="section-1">
+            <article class="cours">
+                <img class="vignette-1" src="assets/img/maths.jpeg" alt="">
+                <div class="contenu-vignette">
+                    <h3>Mathématiques</h3>
+                    <p>Explorez les concepts fondamentaux et avancés des mathématiques et devenez un maître des nombres</p>
+                </div>
+                <a class="bouton-vignette" href="">Démarrer l'Apprentissage</a>
+            </article>
+            <article class="cours">
+                <img class="vignette-1" src="assets/img/science.jpeg" alt="">
+                <div class="contenu-vignette">
+                    <h3>Sciences</h3>
+                    <p>Découvrez les mystères de l'univers, de la biologie moléculaire à la physique quantique.</p>
+                </div>
+                <a class="bouton-vignette" href="">Démarrer l'Apprentissage</a>
+            </article>
+            <article class="cours">
+                <img class="vignette-1" src="assets/img/literature.jpeg" alt="">
+                <div class="contenu-vignette">
+                    <h3>Littérature</h3>
+                    <p>Parcourez les oeuvres des plus grands auteurs, poètes et dramaturges de l'histoire.</p>
+                </div>
+                <a class="bouton-vignette" href="">Démarrer l'Apprentissage</a>
+            </article>
+        </section>
+
+        <!-- Trois vignettes avec feedback -->
+
+        <h2 class="xd">Ressources</h2>
+        <section class="section-2">
+            <article class="feedback">
+                <div class="contenu-feedback">
+                    <img class="photo" src="assets/img/parent-1.jpeg" alt="">
+                    <p>"Ma fille a beaucoup appris grâce à cette plateforme.</p>
+                    <p>Les cours sont très informatis et faciles à comprendre."</p>
+                </div>
+                <p class="name">- Thérèse Dupont</p>
+            </article>
+            <article class="feedback">
+                <div class="contenu-feedback" >
+                <img class="photo" src="assets/img/parent-2.jpeg" alt="">
+                <p>"Une excellente ressource pour l'apprentissage en ligne.</p>
+                <p>Je la recommande à tout le monde!"</p>
+                </div>
+                <p class="name">- Jean Curie</p>
+            </article>
+            <article class="feedback">
+                <div class="contenu-feedback">
+                <img class="photo" src="assets/img/parent-3.jpeg" alt="">
+                <p>"Les ressources disponibles sont très utiles et variées.</p>
+                <p>Une plateforme indispensable pour l'éducation."</p>
+                </div>
+                <p class="name">- Albert Dorne</p>
+            </article>
+        </section>
+
+        <!-- Formulaire -->
+
+        <h2>Contactez-Nous</h2>
+        <p class="text-1">Avez-vous des questions ou des suggestions? N'hésitez pas à nous contacter!</p>
+            <div class="flex-formulaire">
+                <form >
+                    <label for="nom">Nom :</label><br>
+                    <input type="text" id="nom" name="nom" required><br>
+            
+                    <label for="email">E-mail :</label><br>
+                    <input type="email" id="email" name="email" required><br>
+            
+                    <label for="sujet">Choisissez un sujet :</label>
+                    <select id="sujet" name="sujet">
+                        <option value="question">Question</option>
+                        <option value="cours">Cours</option>
+                        <option value="problème">Problème</option>
+                    </select><br>
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                    <button class="bouton-formulaire" type="submit">Envoyer</button>
+                </form>
+            </div>
+    </main>
+        <!-- Footer -->
+    <footer class="text-1">
+        <img class="logo-bottom" src="assets/img/Logo.png" alt="">
+        <p> Nous sommmes ici pour répondre à vos questions et inquiétudes.</p>
+        <p>info@kids-learning.fr</p>
+        <p>01 23 45 67 89</p>
+        <p>Formulaire de contact</p>
+        <div class="box-footer">
+            <p class="box-footer-2">&copy; 2023 Kids Learning. Tous droits réservés. </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+body {
+    margin: 0%;
+    font-family: Nunito;
+    background-color: #ECF0F1;
+}
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+/* CSS Nav bar */
+nav {
+    border: solid 1px;
+    border-bottom: 2px solid orange;
+    background-color: #2D3E51;
+    margin: 0;
+    position: relative;
+}
+.logo-top {
+    height: 10vh;
+    position: absolute;
+    bottom: 12px;
+    left: 300px;
+}
+
+ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+    padding-right: 300px;
+    padding-top: 50px;
+    gap: 35px;
+}
+/* Header et banner */
+header {
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 105px;
+    color: #2D3E51;
+    text-shadow: white 5px 0 10px;
+}
+.bouton-banner {
+    text-decoration: none;
+    border: 0px solid;
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 65px;
+    color: white;
+    font-size: 20px;
+}
+/* Main */
+h2 {
+    color: #2D3E51;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.text-1 {
+    text-align: center;
+}
+/* Suite main avec vignettes + boutons */
+.section-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    
+}
+.cours {
+    border: 0px solid;
+    border-radius: 8px;
+    background-color: white;
+    width: 425px;
+    height: 500px
+}
+.vignette-1 {
+    width: 405px;
+    height: 253px;
+    padding: 10px;
+}
+.contenu-vignette {
+    text-align: center;
+    padding: 15px;
+}
+.bouton-vignette {
+    text-decoration: none;
+    border: 0px solid;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 25%;
+}
+/* Photos parents */
+.photo {
+    width: 150px;
+    clip-path: circle();
+    position: absolute;
+    bottom: 180px;
+    transform: translateX(-50%); 
+}
+
+/* Partie feedback */
+.section-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative; 
+}
+
+.feedback {
+    border: 0px solid;
+    background-color: white;
+    width: 425px;
+    height: 250px;
+    position: relative; 
+}
+
+.contenu-feedback {
+    text-align: center;
+    margin-top: 125px;
+    font-style: italic;
+}
+.name {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    font-weight: bold;
+}
+.xd {
+    margin-bottom: 60px;
+}
+/* Formulaire */
+form {
+   border: 0px solid;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   text-align: left;
+   padding: 20px;
+   width: 425px;
+   height: 450px;
+   margin-bottom: 20px;
+   margin-top: 50px;
+}
+form input,
+form select,
+form textarea {
+    width: 390px; 
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+.bouton-formulaire {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.flex-formulaire {
+    display: flex;
+    justify-content: center;
+}
+/* Footer */
+footer {
+    background-color: #2D3E51;
+    color: white;
+    padding: 50px;
+}
+.logo-bottom {
+    width: 50vh;
+}
+.box-footer {
+    border-top:1px solid #36475A;
+    padding: 0px;
+}
+.box-footer-2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+}
