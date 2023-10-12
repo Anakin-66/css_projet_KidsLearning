@@ -245,3 +245,126 @@ footer {
     margin-bottom: 0px;
     
 }
+
+/* RESPONSIVE */
+@media screen and (max-width:450px) {
+    nav {
+        border-bottom: 3px solid orangered;
+        background-color: #2D3E51;
+        margin: 0;
+        position: relative;
+    }
+    ul {
+        list-style: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        padding: 30px;
+        gap: 5px;
+    }
+    .logo-top {
+        height: 8vh;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+    header {
+        height: 30vh;
+    }
+    h1 {
+        font-size: 30px;
+    }
+        .section-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+            
+    }
+    .bouton-banner {
+        padding: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 40px;
+    }
+    .text-1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    h2 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .section-2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        position: relative; 
+    }
+    
+    .feedback {
+        border: 0px solid;
+        background-color: white;
+        width: 425px;
+        height: 250px;
+        position: relative; 
+    }
+    
+    .contenu-feedback {
+        text-align: center;
+        margin-top: 60px;
+        font-style: italic;
+    }
+    .name {
+        display: flex;
+        justify-content: end;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .xd {
+        margin-bottom: 60px;
+    }
+    .photo {
+        width: 110px;
+        clip-path: circle();
+        position: absolute;
+        bottom: 200px;
+        transform: translateX(-50%); 
+    }
+    .flex-formulaire {
+        display: flex;
+        justify-content: center;
+    }
+    form {
+        border-radius: 5px;
+        width: 400px;
+    }
+    footer {
+        background-color: #2D3E51;
+        color: white;
+        padding: 0px;
+    }
+    .logo-bottom {
+        width: 30vh;
+    }
+    .box-footer {
+        border-top:1px solid #36475A;
+        padding: 0px;
+    }
+    .box-footer-2 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        
+    }
+    
+        
+}
